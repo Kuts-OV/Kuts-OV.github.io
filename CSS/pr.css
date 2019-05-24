@@ -1,0 +1,133 @@
+header {
+	background : url(../img/heder.png);
+	width : 900px; 
+	height:250px;
+	background-size:100%;
+	text-align: left; 
+	padding-top: 1px; 
+	margin: 10px auto;
+	font-size: 20px;
+	border-radius : 20px;
+	position: relative;
+	color 	:red;
+	text-indent: 15px;				
+	}
+div {
+	width : 900px; 
+	margin: 10px auto;
+	border-radius : 10px;
+	}
+.fon {
+	background : url(../img/fon.png);
+	width : 900px;
+	height:100%;
+	margin: auto;
+}		
+aside {
+	background: yellow;
+	width : 150px;
+	text-align: left;
+	text-indent: 20px;	
+	border-radius : 10px;
+	position: fixed;
+	}
+main {
+	background: darkgrey;
+	position: relative;
+	left: 160px;
+	min-height:400px;
+	width : 725px; 
+	text-align: justify; 
+	padding: 8px;
+	border-radius : 10px;
+	word-wrap: break-word; 
+	text-indent: 20px;
+	z-index:0;
+	}
+.st	{
+	width : 700px; 
+	word-wrap: break-word;
+	position: relative;
+}
+.my {
+	background : url(../img/1.png);
+	width : 100px; 
+	height:100px;
+	background-size:100%;
+	border-radius : 50px;
+	}
+.menu	{
+	background: gray;
+	height:64px;
+	width : 900px;
+	}
+li 	{	
+	margin-top :14px;
+	float:left;
+	display: block;
+	width : 200px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	}
+.menu li a:hover,
+p a:hover {
+	color: red;
+	background-color: blue;
+	}
+ul  {
+	margin:0;
+	padding:0;
+}
+a {
+	text-decoration: none;
+}
+.men {
+	position: absolute;
+	top: 180px;
+	right: 10px;
+	width : 110px;
+	border-color: 2px solid black;
+}
+footer	{
+	background: pink;
+	width : 900px; 
+	height:100px;
+	text-align: center; 
+	padding-top: 38px; 
+	margin: 10px auto;
+	border-radius : 10px;
+}	
+img { float:left; 
+	margin: 10px
+	
+}
+.fotka1,
+.fotka2,
+.fotka3,
+.fotka4 {
+	position: absolute;
+	background: darkgrey;
+	width : 90%;
+	height:90%;
+	display: flex;
+	justify-content: center;
+	z-index:1000;
+}
+.fotka1 img, 
+.fotka2 img,
+.fotka3 img,
+.fotka4 img
+ {
+	height: auto; 
+	width: auto; 
+	max-width: 300px; 
+	max-height: 300px;
+	align-self:center;
+}
+
+.fotka1 {z-index:1000}
+.fotka2 {z-index:1001}
+.fotka3 {z-index:1002}
+.fotka4 {z-index:1003}
+
